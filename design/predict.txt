@@ -1,0 +1,31 @@
+SEQ            = 16                        #  v1:源参数 (+11.319%)
+UNIT           = 64
+RET_DIM        = 3
+RSR_IN_DIM     = UNIT + RET_DIM
+STEPS          = 5
+TOP_K          = 5
+LR             = 0.001
+ROLL_EPOCHS    = 50
+ROLL_PATIENCE  = 10
+FINAL_EPOCHS   = 100
+FINAL_PATIENCE = 20
+TRAIN_WINDOW   = 252
+VALID_WINDOW   = 63
+PAD_BEGIN      = 29
+SEED           = 123456789
+
+
+TRAIN_WINDOW = 126     # 原252，改为半年      v2: +24.6279%
+VALID_WINDOW = 32       # 原63，对应缩短
+
+
+TRAIN_WINDOW = 252     # 恢复原值                  v3: +6.6385%
+VALID_WINDOW = 63
+ROLL_EPOCHS  = 100        # 原50，翻倍
+ROLL_PATIENCE = 20        # 原10，对应放宽
+
+
+TRAIN_WINDOW = 126     # 原252，改为半年      v4: +7.5320%
+VALID_WINDOW = 32       # 原63，对应缩短
+ROLL_EPOCHS  = 100        # 原50，翻倍
+ROLL_PATIENCE = 20        # 原10，对应放宽

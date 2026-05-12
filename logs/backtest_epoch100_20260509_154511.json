@@ -1,0 +1,41 @@
+{
+  "run_tag": "backtest_epoch100",
+  "timestamp": "20260509_155551",
+  "hparams": {
+    "SEQ": 16,
+    "UNIT": 64,
+    "LR": 0.001,
+    "ROLL_EPOCHS": 100,
+    "ROLL_PATIENCE": 20,
+    "FINAL_EPOCHS": 100,
+    "FINAL_PATIENCE": 20,
+    "TRAIN_WINDOW": 252,
+    "VALID_WINDOW": 63,
+    "REL_DENSITY_THRESHOLD": 0.05,
+    "STEPS": 5,
+    "TOP_K": 5
+  },
+  "backtest": {
+    "cum_return": 6.6385,
+    "avg_weekly": 0.2553,
+    "profit_weeks": 13,
+    "total_weeks": 26
+  },
+  "final_prediction": {
+    "stocks": [
+      "002384",
+      "600522",
+      "600886",
+      "002466",
+      "002311"
+    ],
+    "weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  "log_file": "/home/li177/relation_rank_lstm/src/../logs/backtest_epoch100_20260509_154511.log"
+}

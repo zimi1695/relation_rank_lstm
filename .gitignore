@@ -1,0 +1,21 @@
+# 1. 忽略数据文件夹 
+# data/
+
+# 2. 忽略所有大型数据文件和模型权重
+*.csv
+*.bin
+*.pkl
+*.pth
+*.zip
+*.tar.gz
+*.npy   
+
+# 3. 忽略 Python 运行产生的临时缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. 忽略编辑器和系统配置文件
+.vscode/
+.idea/
+.DS_Store

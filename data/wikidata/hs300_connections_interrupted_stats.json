@@ -1,0 +1,21 @@
+{
+  "total_qids": 262,
+  "total_connections": 10,
+  "qids_with_connections": 7,
+  "first_order_count": 0,
+  "second_order_count": 10,
+  "property_distribution": {
+    "P452_P452": 10
+  },
+  "connection_degree": {
+    "Q737443": 2,
+    "Q1073327": 2,
+    "Q1479076": 2,
+    "Q910401": 1,
+    "Q2389456": 1,
+    "Q911543": 1,
+    "Q1595443": 1
+  },
+  "extraction_time_seconds": 19,
+  "avg_connections_per_qid": 1.4285714285714286
+}
